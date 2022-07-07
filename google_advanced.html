@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Google Advanced Search</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta charset="UTF-8"/>
+
+        <style>
+            .input_advanced{
+                width: 300px;
+            }
+
+            
+
+        </style>
+        <link rel="stylesheet" href="style_site.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" /> 
+
+    </head>
+    <body>
+
+        <header class="right_upper">
+            <a href="index.html" class="btn right_upper">  Welcome Page </a>
+        </header>
+
+   
+        <!--la méthode par défaut est GET -->
+        <form  action="https://google.com/search">
+           
+           <pre>
+
+             <label>all theses words:</label>           <input class="input_advanced " name="as_q" type="text"/><br/>
+             <label>this exact word or phrase:</label>  <input class="input_advanced" name="as_epq" type="text"/><br/>
+             <label>any of these words:</label>         <input class="input_advanced" name="as_oq" type="text"/><br/>
+             <label>none of these words:</label>        <input class="input_advanced" name="as_eq" type="text"/><br/>
+     
+            <button type="Submit" class="btn btn-primary" >Advanced Search</button>
+           </pre>
+            
+        
+        </form>
+
+    </body>
+</html>
